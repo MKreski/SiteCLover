@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #6bf36b;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: #F59DC7;
+}
+
+#bars-menu{
+    margin-left: 10vw;
+    scale: 3;
+    background-color: inherit;
+}
+
+.nav-menu{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.card-img-top{
+    height: 35vh;
+}
+
+.card-body{
+    background-color: #ff449e;
+}
+
+.card-body .btn{
+    background-color: #6bf36b;
+}
+
+.carousel-inner{
+    margin-right: 75vw;
+}
+
+.carousel-item{
+}
