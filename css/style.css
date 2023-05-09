@@ -16,27 +16,27 @@ header {
     background-color: #F59DC7;
 }
 
-#bars-menu{
+#bars-menu {
     margin-left: 10vw;
     scale: 3;
     background-color: inherit;
 }
 
-.nav-menu{
-    height: 100%;
+.nav-menu {
+    position: fixed;
+    background-color: #fa5ea9;
     width: 100%;
+    height: 10vh;
     align-items: center;
     display: flex;
 }
 
-.card-img-top{
-    height: 35vh;
+.container-cards {
+    overflow: auto;
+    white-space: nowrap;
 }
 
-.card-body{
-    background-color: #ff449e;
-}
-
-.card-body .btn{
-    background-color: #6bf36b;
+.container-cards .card{
+    margin-right: 20vw;
+    display: inline-block;
 }
