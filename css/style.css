@@ -28,15 +28,3 @@ header {
     align-items: center;
     display: flex;
 }
-
-.card-img-top{
-    height: 35vh;
-}
-
-.card-body{
-    background-color: #ff449e;
-}
-
-.card-body .btn{
-    background-color: #6bf36b;
-}
