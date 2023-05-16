@@ -37,6 +37,10 @@ header {
 }
 
 .container-cards .card{
-    margin-right: 20vw;
+    margin-right: 10vw;
     display: inline-block;
+}
+
+.card-body h5{
+    font-size: 15px;
 }
