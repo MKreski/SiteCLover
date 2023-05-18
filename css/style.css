@@ -7,7 +7,9 @@
 }
 
 body {
-    background-color: #6bf36b;
+    background: linear-gradient(180deg, #DDF5A9 0%, #BDEF90 22.44%, #07CB07 119.67%);
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 header {
@@ -86,10 +88,80 @@ header {
     width: 200px;
 }
 
-li{
+li {
     list-style: none;
 }
 
-.menu-hamburguer ul li a{
+.menu-hamburguer ul li a {
     color: black;
+}
+
+.produto {
+    overflow: hidden;
+    height: 400px;
+    width: 230px;
+    background-color: rgb(242, 242, 188);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagem {
+    margin-top: 15px;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.info h1 {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: black;
+}
+
+.info p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    color: black;
+}
+
+.info p {
+    margin-top: -10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.info {
+    margin-top: -20px;
+}
+
+.titulo {
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botao2 {
+    margin: 0 auto;
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 180px;
+    background: #5BA888;
+    margin-bottom: 10px;
+}
+
+.botao2 p {
+    margin-top: 10px;
+    font-size: 20px;
 }
