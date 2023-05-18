@@ -67,13 +67,29 @@ header {
     justify-content: center;
 }
 
-.barra-pesquisa{
+.barra-pesquisa {
     width: 300px;
     height: 40px;
     border-radius: 10px 0 0 10px;
 }
 
-.banner{
+.banner {
     margin-top: 50px;
     width: 100%;
+}
+
+.menu-hamburguer {
+    z-index: 3;
+    position: absolute;
+    background-color: gray;
+    height: 400px;
+    width: 200px;
+}
+
+li{
+    list-style: none;
+}
+
+.menu-hamburguer ul li a{
+    color: black;
 }
