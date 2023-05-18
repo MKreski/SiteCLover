@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+    /* cursor: none; */
+}
+nav{
+    height: 45vh;
+    background-color: rgba(255, 0, 0, 0.589);
+    background-image: url("/img/bkgProdutos.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text-conteiner{
+    width: 80%;
+    /* background-color: red; */
+    text-align: center;
+    margin-top: 3%;
+    
+
+}
+.conteiner p{
+    font-weight: 500;
+    text-align: left;
+    margin-top: 2%;
+    font-family: 'Montserrat', sans-serif;  
+}
+.conteiner{
+    position: absolute;
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* background-color: greenyellow; */
+}
+span{
+    display: block;
+    width: 78vw;
+    margin-top: 3%;
+height: 0px;
+border: 1px solid #000000;
+}
+.preset-btn{
+    width: 105px;
+    transform: scale(0.8);
+height: 53px;
+border:  solid 1px #E14891;
+border-radius: 16px;
+transition: 500ms;
+text-transform: uppercase;
+color: #DD2E82;
+font-weight: 700;
+font-size: 24px;
+align-items: center;
+justify-content: center;
+display: flex;
+text-transform: uppercase;
+
+}
+.preset-btn a{
+    font-family: 'Montserrat';
+font-style: normal;
+width: inherit;
+height: inherit;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 600;
+font-size: 24px;
+/* line-height: 29px; */
+text-decoration: none;
+
+
+color: #DD2E82;
+}
+.btns-feedback{
+    display: flex;
+    gap: 1%;
+    position: relative;
+    left: -1%;
+    /* left: 0; */
+}
+.preset-btn:hover{
+    background-color: #DD2E82;
+    color: white;
+    cursor: pointer;
+}
+.preset-btn a:hover{
+    color: white;
+}
+.fa-circle-arrow-up{
+    position: fixed;
+    bottom: 5%;
+    right: 0%;
+    font-size:35px;
+    opacity: 0;
+    transition: 500ms;
+}
+.fa-circle-arrow-up.active{
+    opacity: 1;
+    right: 3%;
+}
+section{
+    transition: linear .2s;
+}
+.resposta-sim{
+    background-color: #4e4747;
+    color: white;
+    width: 22%;
+    border-radius: 16px;
+    font-size: 15px;
+    text-align: center;
+    /* position: absolute; */
+    margin-top: -5%;
+    align-items: center;
+    margin-left: 42%;
+    margin-bottom: 2%;
+    padding: 4px;
+    opacity: 0;
+    transition: 500ms;
+}
+.resposta-nao1{
+    opacity: 0;
+    background-color: red;
+    color: white;
+    width: 22%;
+    border-radius: 16px;
+    font-size: 15px;
+    text-align: center;
+    /* position: absolute; */
+    margin-top: 1%;
+    align-items: center;
+    margin-left: 42%;
+    margin-bottom: 2%;
+    padding: 4px;
+    transition: 500ms;
+}
+.resposta-sim.active{
+opacity: 1;
+}
+.resposta-nao1.active{
+    opacity: 1;
+    
+}
+.respostaH{
+    background-color: red;
+    color: white;
+    width: 22%;
+    border-radius: 16px;
+    font-size: 15px;
+    text-align: center;
+    /* position: absolute; */
+    margin-top: 1%;
+    align-items: center;
+    margin-left: 42%;
+    margin-bottom: 2%;
+    opacity: 0;
+    padding: 4px;
+    display: none;
+    transition: 500ms;
+}
+.respostaH.active{
+    opacity: 1;
+}
+
+body{
+    height: 120%;
+}
+
+@media screen and (max-width:390px) {
+    nav{
+        height: 45vh;
+        background-color: rgba(255, 0, 0, 0.589);
+        background-image: url("/img/bkgProdutos.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .resposta-sim{
+        width: 45%;
+        position: relative;
+    }
+    .resposta-nao1{
+        position: relative;
+        
+        width: 30%;
+        /* margin-top: 15%; */
+    }
+   .respostas{
+    width: 100vw;
+    align-items: center;
+
+     margin-left:-30%;
+    justify-content: center;
+    
+    height: inherit;
+    
+   }
+}
