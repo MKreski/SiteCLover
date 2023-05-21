@@ -165,3 +165,42 @@ li {
     margin-top: 10px;
     font-size: 20px;
 }
+
+/* pagina do produto */
+
+.carousel{
+    background-color: #b7f1b7;
+}
+
+.carousel-control-next-icon{
+    background-color: #969696;
+}
+
+.carousel-control-prev-icon{
+    background-color: #969696;
+}
+
+.info-produto{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5vw;
+    margin-right: 6vw;
+}
+
+.coracao .fa-heart{
+    margin-top: 5px;
+    display: none;
+    scale: 2;
+}
+
+.coracao .fa-heart.ativo{
+    display: block;
+}
+
+.info-produto p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    color: black;
+}
