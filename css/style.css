@@ -267,6 +267,11 @@ a .btn-compra{
     margin-top: -110px;
     margin-bottom: -90px;
 }
+
+.barra-pesquisa{
+    outline: none;
+    padding-left: 10px;
+}
 /* rodapé */
 footer {
     width: 100%;
