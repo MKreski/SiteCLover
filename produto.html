@@ -31,7 +31,25 @@
     <header>
         <nav class="nav-menu">
             <div class="menu-itens">
-                <button id="bars-menu" class="fa fa-bars"></button>
+                <button class="menuMobile" id="bars-menu" onclick="toggleBar()"><i
+                        class="fa-solid fa-bars"></i></button>
+                <ul class="navList">
+                    <div class="x" id="x"><i onclick="toggleBar()" class="fa-solid fa-xmark"></i></div>
+                    <li><a href="#">Home</a></li>
+                    <p>Sobre-nós</p>
+                    <li><a href="#">Informações da Empresa</a></li>
+                    <li><a href="#">Quem somos?</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <p>Suporte</p>
+                    <li><a href="#">Telefones</a></li>
+                    <li><a href="#">Chat</a></li>
+                    <p>Modo Escuro</p>
+                    <div class="btnModoNoturno">
+                        <button type="button" id="btn">
+                            <span></span>
+                        </button>
+                    </div>
+                </ul>
                 <a href="index.html"><img src="./img/Logo (1).svg" alt="logo"></a>
                 <a href="login.html"><img src="./img/usuario.svg" alt=""></a>
             </div>
@@ -99,7 +117,7 @@
 
             <h1>Veja onde comprar:</h1>
             <div class="compra">
-                <img class="img-compra" src="./img/chanel.webp" alt="logo oboticario">
+                <img class="img-compra" src="./img/chanel.webp" alt="logo chanel">
                 <div class="botao-compra">
                     <a href="https://www.chanel.com/br/perfumes/p/122330/1932-les-exclusifs-de-chanel-eau-de-parfum/"><button
                             class="btn-compra">Chanel</button></a>

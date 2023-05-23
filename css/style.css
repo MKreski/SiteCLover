@@ -212,8 +212,8 @@ li {
     margin-bottom: -1px;
 }
 
-.carousel-indicators button {
-    z-index: 1;
+.carousel{
+    z-index: 0;
 }
 
 nav .navList .btnModoNoturno button {
