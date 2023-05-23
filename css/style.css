@@ -13,9 +13,10 @@ body {
 }
 
 header {
+    display: block;
     width: 100%;
-    height: 10vh;
-    background-color: #F59DC7;
+    height: 15vh;
+    background-color: #fa5ea9;
 }
 
 #bars-menu {
@@ -26,9 +27,8 @@ header {
 
 .nav-menu {
     position: absolute;
-    background-color: #fa5ea9;
     width: 100%;
-    height: 13vh;
+    height: 15vh;
     align-items: center;
     display: block;
     z-index: 1;
@@ -69,14 +69,26 @@ header {
     justify-content: center;
 }
 
+.pesquisa button {
+    border-radius: 0 10px 10px 0;
+}
+
 .barra-pesquisa {
     width: 300px;
     height: 40px;
     border-radius: 10px 0 0 10px;
 }
 
+.opcoes {
+    display: none;
+}
+
 .banner {
     margin-top: 50px;
+    width: 100%;
+}
+
+.img-banner{
     width: 100%;
 }
 
@@ -149,7 +161,7 @@ li {
 }
 
 .botao2 {
-    transition: .1s ;
+    transition: .1s;
     margin: 0 auto;
     text-decoration: none;
     border-radius: 10px;
@@ -162,7 +174,7 @@ li {
     margin-bottom: 10px;
 }
 
-.botao2:hover{
+.botao2:hover {
     scale: 1.1;
     background-color: #4b8f73;
 }
@@ -218,7 +230,7 @@ li {
     margin-bottom: -1px;
 }
 
-.carousel{
+.carousel {
     z-index: 0;
 }
 
@@ -253,6 +265,10 @@ nav .navList .btnModoNoturno button.activeButton span {
 
 #carouselExampleCaptions {
     z-index: 0;
+}
+
+.img-banner {
+    height: 200px;
 }
 
 /* pagina do produto */
@@ -363,6 +379,9 @@ a .btn-compra {
     outline: none;
     padding-left: 10px;
 }
+.carrousel-produto{
+    height: 100%;
+}
 
 /* rodapé */
 footer {
@@ -424,24 +443,97 @@ footer .container-footer5 button {
 
 /* Responsividade */
 @media screen and (min-width:1000px) {
-    .menuMobile{
+    .menuMobile {
         display: none;
     }
-    .carousel{
-        width: 1000px;
+
+    .carousel {
+        width: 1200px;
         height: 500px;
         margin: 0 auto;
     }
-    .d-block{
+
+    .d-block {
         height: 500px;
     }
-    .container-cards{
-        margin-left: 20vw;
+
+    .container-cards {
+        display: flex;
+        justify-content: center;
+        margin-left: 100px;
     }
-    .container-cards .card{
-        margin-right: 4vw;
+
+    .container-cards .card {
+        margin-right: 4.3vw;
     }
-    .nav-menu{
-        width: 1000px;
+
+    .nav-menu {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navList {
+        display: none;
+    }
+
+    .pesquisa {
+        margin-top: -5vh;
+    }
+
+    .barra-pesquisa {
+        height: 40px;
+        width: 600px;
+    }
+
+    .pesquisa button {
+        height: 40px;
+    }
+
+    .opcoes {
+        display: flex;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 23px;
+        gap: 30px;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .opcoes li a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .opcoes li a:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    .img-logo {
+        scale: 1.3;
+        margin-top: 10px;
+    }
+
+    .img-login {
+        scale: 1.3;
+        margin-top: 13px;
+    }
+
+    .img-banner {
+        width: 1100px;
+    }
+
+    .banner {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .seta{
+        scale: 2;
     }
 }
