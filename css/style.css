@@ -20,7 +20,7 @@ header {
 
 #bars-menu {
     margin-left: 10vw;
-    scale: 3;
+    transform: scale(3);
     background-color: inherit;
 }
 
