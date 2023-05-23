@@ -166,21 +166,104 @@ li {
     font-size: 20px;
 }
 
+.navList {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    height: 100vh;
+    background-color: #56a143;
+    transform: translateX(-100%);
+    padding-top: 80px;
+    z-index: 1;
+    transition: .1s;
+
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.navList.active {
+    transform: translateX(0);
+}
+
+.navList .x {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    font-size: 40px;
+    display: none;
+    transition: none;
+}
+
+.navList a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navList li {
+    list-style: none;
+}
+
+.navList p {
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: -1px;
+}
+
+.carousel-indicators button {
+    z-index: 1;
+}
+
+nav .navList .btnModoNoturno button {
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 25px;
+    border-radius: 20px;
+    border: 0;
+    background-color: #717d96;
+}
+
+nav .navList .btnModoNoturno button span {
+    display: block;
+    width: 23px;
+    height: 23px;
+    margin-left: 2px;
+    background-color: #000;
+    border-radius: 50%;
+    transition: margin-left .3s, background-color .3s;
+}
+
+nav .navList .btnModoNoturno button.activeButton {
+    background-color: green;
+}
+
+nav .navList .btnModoNoturno button.activeButton span {
+    margin-left: 24.5px;
+    background-color: #fff;
+}
+
+#carouselExampleCaptions {
+    z-index: 0;
+}
+
 /* pagina do produto */
 
-.carousel{
+.carousel {
     background-color: #d6f2d6;
 }
 
-.carousel-control-next-icon{
+.carousel-control-next-icon {
     background-color: #969696;
 }
 
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
     background-color: #969696;
 }
 
-.info-produto{
+.info-produto {
     height: 30px;
     display: flex;
     justify-content: space-between;
@@ -188,17 +271,17 @@ li {
     margin-right: 6vw;
 }
 
-.coracao .fa-heart{
+.coracao .fa-heart {
     margin-top: 10px;
     display: none;
     scale: 2;
 }
 
-.coracao .fa-heart.ativo{
+.coracao .fa-heart.ativo {
     display: block;
 }
 
-.info-produto p{
+.info-produto p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -206,12 +289,12 @@ li {
     color: black;
 }
 
-.info-produto img{
+.info-produto img {
     margin-top: -30px;
     height: 100px;
 }
 
-.descricao-produto h1{
+.descricao-produto h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -219,41 +302,41 @@ li {
     color: black;
 }
 
-.descricao-produto p{
+.descricao-produto p {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-size: 14px;
     color: black;
 }
 
-.descricao-produto{
+.descricao-produto {
     width: 90vw;
     margin-left: 5vw;
     margin-top: 1vh;
 }
 
-.linha{
+.linha {
     margin-top: 1vh;
     height: 2px;
     width: 100%;
     background-color: #053f16;
 }
 
-.img-compra{
+.img-compra {
     height: 50px;
 }
 
-.btn-compra{
+.btn-compra {
     height: 50px;
     width: 200px;
     background-color: #d8ffef;
 }
 
-.compra{
+.compra {
     display: flex;
 }
 
-a .btn-compra{
+a .btn-compra {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -262,16 +345,17 @@ a .btn-compra{
     text-decoration: none;
 }
 
-.avaliacao{
+.avaliacao {
     height: 300px;
     margin-top: -110px;
     margin-bottom: -90px;
 }
 
-.barra-pesquisa{
+.barra-pesquisa {
     outline: none;
     padding-left: 10px;
 }
+
 /* rodapé */
 footer {
     width: 100%;
@@ -283,18 +367,18 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     background-color: #68dd50;
-  }
-  
-  footer a {
+}
+
+footer a {
     text-decoration: none;
     color: #000000;
-  }
-  
-  footer a:hover {
+}
+
+footer a:hover {
     text-decoration: underline;
-  }
-  
-  footer .boxFooter {
+}
+
+footer .boxFooter {
     width: 110px;
     height: 140px;
     display: flex;
@@ -304,17 +388,17 @@ footer {
     font-family: "Jost", sans-serif;
     font-weight: 400;
     color: #ffffff;
-  }
-  
-  footer .container-footer5 {
+}
+
+footer .container-footer5 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-  }
-  
-  footer .container-footer5 button {
+}
+
+footer .container-footer5 button {
     width: 100px;
     height: 30px;
     background-color: #333333;
@@ -323,9 +407,9 @@ footer {
     margin-bottom: 50px;
     margin-left: 6px;
     color: #fff;
-  }
-  
-  .fa-brands {
+}
+
+.fa-brands {
     font-size: 30px;
     color: #fff;
-  }
+}
