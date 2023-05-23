@@ -206,6 +206,11 @@ li {
     color: black;
 }
 
+.info-produto img{
+    margin-top: -30px;
+    height: 100px;
+}
+
 .descricao-produto h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -232,6 +237,35 @@ li {
     height: 2px;
     width: 100%;
     background-color: #053f16;
+}
+
+.img-compra{
+    height: 50px;
+}
+
+.btn-compra{
+    height: 50px;
+    width: 200px;
+    background-color: #d8ffef;
+}
+
+.compra{
+    display: flex;
+}
+
+a .btn-compra{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 23px;
+    color: rgb(8, 11, 11);
+    text-decoration: none;
+}
+
+.avaliacao{
+    height: 300px;
+    margin-top: -110px;
+    margin-bottom: -90px;
 }
 /* rodapé */
 footer {
