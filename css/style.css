@@ -435,4 +435,13 @@ footer .container-footer5 button {
     .d-block{
         height: 500px;
     }
+    .container-cards{
+        margin-left: 20vw;
+    }
+    .container-cards .card{
+        margin-right: 4vw;
+    }
+    .nav-menu{
+        width: 1000px;
+    }
 }
