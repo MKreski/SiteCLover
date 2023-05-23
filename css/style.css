@@ -55,7 +55,7 @@ header {
 }
 
 .d-block {
-    height: 300px;
+    height: 250px;
 }
 
 .card {
@@ -149,6 +149,7 @@ li {
 }
 
 .botao2 {
+    transition: .1s ;
     margin: 0 auto;
     text-decoration: none;
     border-radius: 10px;
@@ -159,6 +160,11 @@ li {
     width: 180px;
     background: #5BA888;
     margin-bottom: 10px;
+}
+
+.botao2:hover{
+    scale: 1.1;
+    background-color: #4b8f73;
 }
 
 .botao2 p {
@@ -256,10 +262,12 @@ nav .navList .btnModoNoturno button.activeButton span {
 }
 
 .carousel-control-next-icon {
+    opacity: 0.5;
     background-color: #969696;
 }
 
 .carousel-control-prev-icon {
+    opacity: 0.5;
     background-color: #969696;
 }
 
@@ -415,16 +423,16 @@ footer .container-footer5 button {
 }
 
 /* Responsividade */
-@media screen and (min-width:800px) {
+@media screen and (min-width:1000px) {
     .menuMobile{
         display: none;
     }
     .carousel{
         width: 1000px;
         height: 500px;
+        margin: 0 auto;
     }
     .d-block{
         height: 500px;
-        
     }
 }
