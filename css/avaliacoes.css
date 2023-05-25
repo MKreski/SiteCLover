@@ -1,0 +1,554 @@
+/*font-family: 'Jost', sans-serif;
+font-family: 'Parisienne', cursive;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    display: block;
+    width: 100%;
+    height: 15vh;
+    background-color: #fa5ea9;
+}
+
+#bars-menu {
+    margin-left: 10vw;
+    transform: scale(3);
+    background-color: inherit;
+}
+
+.nav-menu {
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    align-items: center;
+    display: block;
+    z-index: 1;
+}
+
+
+.menu-hamburguer {
+    z-index: 3;
+    position: absolute;
+    background-color: gray;
+    height: 400px;
+    width: 200px;
+}
+
+li {
+    list-style: none;
+}
+
+.menu-hamburguer ul li a {
+    color: black;
+}
+
+.menu-itens {
+    display: flex;
+    justify-content: space-between;
+}
+
+.d-block {
+    height: 250px;
+}
+
+.card {
+    height: 100rem;
+}
+
+.pesquisa {
+    margin-top: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.pesquisa button {
+    border-radius: 0 10px 10px 0;
+}
+
+.barra-pesquisa {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px 0 0 10px;
+}
+
+.opcoes {
+    display: none;
+}
+
+.input{
+	pointer-events: visibleStroke;
+	width: 970px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	border-radius: 16px;
+}
+
+body{
+
+	background: linear-gradient(180deg, #68DD50 0%, rgba(193, 255, 183, 0) 100%);
+	background-repeat: no-repeat;
+}
+
+.botao{
+	background-color: transparent;
+	border-radius: 16px;
+	align-self: center;
+	height: 68px;
+	width: 50px;
+	cursor: pointer;
+}
+
+.div-container{
+	font-family: 'Jost', sans-serif;
+}
+
+.div-logo{
+margin-left: 40%;
+margin-top: 100px;
+
+}
+
+.titulozin{
+    position: absolute;
+	width: 272.13px;
+	height: 122.22px;
+	left: 50%;
+	top: 250px;
+
+	font-family: 'Parisienne', cursive;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 70px;
+	line-height: 123px;
+	text-align: center;
+	color: #FFFFFF;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+
+
+}
+
+.div-titulo{
+	margin-top: 70px;
+	margin-left: 100px;
+	font-family: 'Jost', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h5{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.div-bagaça{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.div-bagaça{
+	margin-top: 100px;
+	display: flex;
+	margin-left: 700px;
+}
+
+.coluna1{
+    margin-left: 800px;
+	margin-top: 60px;
+    font-size: 20px;
+	position: absolute;
+}
+
+p{
+	font-family: 'Jost', sans-serif;
+}
+
+.coluna2{
+    margin-left: 1000px;
+    margin-top: 60px;
+    font-size: 20px;
+	position: absolute;
+}
+
+.p1{
+  
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+
+.perfume1{
+    margin-top: 50px;
+    width: 100%;
+    height: 80px;
+    background-color: #F1FFD1;
+	display: flex;
+}
+
+.perfume2{
+    margin-top: 50px;
+    width: 100%;
+    height: 80px;
+    background-color: #FFDAEC;
+	display: flex;
+}
+
+.nota1{
+    color: black;
+    font-size: 18px;
+	display: flex;
+	margin-left: 500px;
+}
+
+.nota1d{
+	color: black;
+    font-size: 18px;
+	display: flex;
+	margin-left: 510px;
+}
+
+.nota1p{
+	color: black;
+    font-size: 18px;
+	display: flex;
+	margin-left: 510px;
+}
+
+
+.nota2{
+    color: black;
+    font-size: 18px;
+	display: flex;
+	margin-left: 660px;
+}
+
+.nota3{
+    color: black;
+    font-size: 18px;
+	display: flex;
+	margin-left: 554px;
+}
+
+.nota4{
+    color: black;
+    font-size: 18px;
+	display: flex;
+	margin-left: 578px;
+}
+
+.nota5{
+    color: black;
+    font-size: 18px;
+	display: flex;
+	margin-left: 630px;
+}
+
+.nota100{
+	color: black;
+    font-size: 18px;
+	display: flex;
+	margin-left: 490px;
+
+}
+
+.notas{
+	margin-top: 25px;
+
+	background-color: wheat;
+}
+
+.inputc{
+	margin-left: 50px;
+	display: flex;
+	margin-top: 50px;
+	pointer-events: visibleStroke;
+	width: 600px;
+	height: 200px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	border-radius: 16px;
+
+}
+
+.fa-star{
+	scale: 1.5;
+}
+
+.estrela{
+	margin-left: 180px;
+}
+
+.fa-solid{
+	scale: 2;
+}
+
+.fa-circle-user{
+	scale: 2;
+}
+
+.listamsm{
+	margin-top: 100px;
+}
+
+
+/* rodapé */
+footer {
+    width: 100%;
+    height: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #68dd50;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .boxFooter {
+    width: 110px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+footer .container-footer5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .container-footer5 button {
+    width: 100px;
+    height: 30px;
+    background-color: #333333;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-left: 6px;
+    color: #fff;
+}
+
+.fa-brands {
+    font-size: 30px;
+    color: #fff;
+}
+
+
+/* Responsividade */
+@media screen and (max-width:1200px) {
+    .menuMobile {
+        display: none;
+    }
+
+    .nav-menu {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navList {
+        display: none;
+    }
+
+    .barra-pesquisa {
+        height: 40px;
+        width: 600px;
+      
+    }
+
+    .pesquisa button {
+        height: 40px;
+    }
+
+    .opcoes {
+        display: flex;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 23px;
+        gap: 30px;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .opcoes li a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .opcoes li a:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    .img-logo {
+        scale: 1.0;
+        margin-top: 0px;
+        margin-left: 30%;
+    }
+
+    .img-login {
+        scale: 1.0;
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+
+    
+
+
+.div-logo{
+margin-left: 15%;
+margin-top: 50px;
+
+}
+
+.titulozin{
+    position: absolute;
+	left: 45%;
+	top: 225px;
+	font-weight: 400;
+	font-size: 70px;
+
+	text-align: center;
+}
+
+
+.div-titulo{
+	margin-top: 35px;
+	margin-left: 50px;
+	font-family: 'Jost', sans-serif;
+}
+
+
+.coluna1{
+    margin-left: 40px;
+	margin-top: 60px;
+    font-size: 15px;
+
+}
+
+.coluna2{
+    margin-left: 200px;
+    margin-top: 60px;
+    font-size: 15px;
+}
+
+.perfume1{
+    margin-top: 25px;
+    width: 100%;
+    height: 80px;
+}
+
+.perfume2{
+    margin-top: 25px;
+    width: 100%;
+    height: 80px;
+}
+
+
+.p1{
+    font-size: 15px;
+}
+
+
+.nota1{
+
+    font-size: 18px;
+	margin-left: 200px;
+}
+
+.nota1d{
+
+    font-size: 18px;
+	margin-left: 200px;
+}
+
+.nota1p{
+    font-size: 18px;
+	margin-left: 200px;
+}
+
+
+.nota2{
+
+    font-size: 18px;
+    margin-left: 200px;
+}
+
+.nota3{
+    font-size: 18px;
+	margin-left: 200px;
+}
+
+.nota4{
+    font-size: 18px;
+	margin-left: 200px;
+}
+
+.nota5{
+    font-size: 18px;
+	margin-left: 200px;
+}
+
+.nota100{
+    font-size: 18px;
+	margin-left: 200px;
+
+}
+
+.notas{
+	margin-top: 25px;
+}
+
+
+.fa-star{
+	scale: 1.5;
+}
+
+.estrela{
+	margin-left: 10px;
+}
+
+
+}
