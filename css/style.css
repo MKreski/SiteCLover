@@ -442,7 +442,7 @@ footer .container-footer5 button {
 }
 
 /* Responsividade */
-@media screen and (min-width:1000px) {
+@media screen and (min-width:1200px) {
     .menuMobile {
         display: none;
     }
