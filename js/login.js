@@ -2,7 +2,7 @@ function login() {
     let email = document.getElementById("email");
     let password = document.getElementById("password");
 
-    if ((email.value == "matheuskreski@gmail.com") && (password.value == "12345678")) {
+    if ((email.value == "administracao@clover.com") && (password.value == "cloveradm")) {
         window.location.href = "restrito.html";
     }
     else {
