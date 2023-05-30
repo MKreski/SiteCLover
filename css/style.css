@@ -447,7 +447,7 @@ footer .container-footer5 button {
         display: none;
     }
 
-    .carousel {
+    .home.carousel {
         width: 1200px;
         height: 500px;
         margin: 0 auto;
@@ -535,6 +535,12 @@ footer .container-footer5 button {
     }
     .seta{
         scale: 2;
+        overflow: hidden;
+    }
+    .produto-slide.carousel {
+        width: 500px;
+        height: 500px;
+        margin: 0 auto;
     }
 }
 
