@@ -101,7 +101,6 @@
         </div>
         <div class="info-produto">
             <p>Chanel-1932</p>
-            <img src="./img/estrelas.png" alt="">
             <div class="coracao">
                 <i id="coracao-off" class="fa-solid fa-heart"></i>
                 <i id="coracao-on" class="fa-regular fa-heart ativo"></i>
@@ -133,7 +132,32 @@
                 </div>
             </div>
             <h1 style="margin-top: 20px;">Comprou? Nos diga o que achou!</h1>
-            <img class="avaliacao" src="./img/estrelas.png" alt="">
+
+            <ul class="avaliacao">
+                <li class="star-icon active" data-avaliacao="1"></li>
+                <li class="star-icon" data-avaliacao="2"></li>
+                <li class="star-icon" data-avaliacao="3"></li>
+                <li class="star-icon" data-avaliacao="4"></li>
+                <li class="star-icon" data-avaliacao="5"></li>
+   
+            </ul>
+            
+<script class="produtoo">
+    var stars = document.querySelectorAll('.star-icon');
+
+document.addEventListener('click', function(e){
+var classStar = e.target.classList;
+if(!classStar.contains('active')){
+ stars.forEach(function(star){
+star.classList.remove('active');
+});
+ classStar.add('active');
+}
+});
+</script>
+       
+
+
         </div>
     </main>
     <footer>
@@ -176,6 +200,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+        
     <script src="./js/app.js"></script>
 </body>
 

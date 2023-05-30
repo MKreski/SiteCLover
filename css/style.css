@@ -369,11 +369,35 @@ a .btn-compra {
     text-decoration: none;
 }
 
-.avaliacao {
-    height: 300px;
-    margin-top: -110px;
-    margin-bottom: -90px;
+.avaliacao{
+    display: flex;
+    padding-left: 150px;
 }
+
+.star-icon{
+    list-style-type: none;
+    border: 0px solid #fff;
+    cursor: pointer;
+    color: #fa5ea9;
+    font-size: 50px;
+}
+
+.star-icon::before{
+    content:"\2605"
+}
+
+.star-icon.active ~ .star-icon::before{
+    content: "\2606";
+}
+
+.avaliacao:hover .star-icon::before{
+    content: "\2605";
+}
+
+.star-icon:hover ~ .star-icon::before{
+    content: "\2606";
+}
+
 
 .barra-pesquisa {
     outline: none;

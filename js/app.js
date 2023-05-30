@@ -44,3 +44,4 @@ arrow.addEventListener("click", () => {
 box.addEventListener("click", () => {
     let box = document.querySelector("#boxTwo")
 })
+
