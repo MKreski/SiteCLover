@@ -6,21 +6,7 @@
 
 body {
     background: linear-gradient(180deg, #ef41b4 0%, #01bb83 100%);
-    background-size: cover;
-    height: 110vh;
-    font-family: "Montserrat", sans-serif;
-    background-repeat: no-repeat;
     height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.bkg {
-    display: flex;
-    flex-direction: column;
-    width: 1200px;
-    margin: 0 auto;
 }
 
 .div-menu {
@@ -133,4 +119,29 @@ textarea:focus,
 input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
+}
+
+@media screen and (max-width:1000px) {
+    .input-nome{
+        width: 90vw;
+    }
+    .img-logo{
+        display: none;
+    }
+    .itens-menu{
+        display: block;
+    }
+    .img-x{
+        width: 5vh;
+        height: 5vh;
+    }
+    .itens-menu h1{
+        margin-left: -7vw;
+    }
+    .text-aviso{
+        width: 95vw;
+    }
+    .input-descricao{
+        width: 95vw;
+    }
 }
