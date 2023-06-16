@@ -445,7 +445,7 @@ footer .container-footer5 button {
         top: 225px;
         font-weight: 400;
         font-size: 70px;
-
+        width: 50vw;
         text-align: center;
     }
 
@@ -474,12 +474,14 @@ footer .container-footer5 button {
         margin-top: 25px;
         width: 100%;
         height: 80px;
+        margin-left: -6vw;
     }
 
     .perfume2 {
         margin-top: 25px;
         width: 100%;
         height: 80px;
+        margin-left: -6vw;
     }
 
 
@@ -546,15 +548,15 @@ footer .container-footer5 button {
         margin-left: 10px;
     }
 
-    .avaliacao {
-        padding-left: 100px;
+    ul.avaliacao {
+        display: none;
     }
 
     .coluna2 {
         display: none;
     }
 
-    .p1{
+    .p1 {
         margin: 0;
     }
 }

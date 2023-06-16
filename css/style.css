@@ -551,14 +551,11 @@ footer .container-footer5 button {
     .img-login {
         scale: 1.3;
         margin-top: 13px;
-        background-color: #000;
-
     }
 
     .img-login img{
         width: 100%;
         height: 100%;
-        background-color: #07CB07;
     }
 
     .img-banner {
